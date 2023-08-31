@@ -1,0 +1,16 @@
+.gist-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Set minimum height to cover the viewport */
+  }
+  
+  /* Style for the message */
+  .no-data {
+    text-align: center;
+  }
+  .no-data-image {
+    width: 500px; /* Adjust the size as needed */
+    margin-bottom: 20px;
+  }

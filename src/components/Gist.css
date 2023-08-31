@@ -1,0 +1,95 @@
+/* In your CSS file or using styled-components */
+  
+/* Gist.css */
+.gist {
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    margin: 20px 150px;
+   
+  }
+  
+  .gist-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+    font-size: small;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    color: #007bff;
+  }
+  
+  .gist-links {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .gist-meta {
+    display: flex;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .gist-heading {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+  }
+
+  .gist-meta p {
+    margin: 4px 0;
+  }
+  
+  .gist-files ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .gist-files li {
+    margin-bottom: 4px;
+  }
+  
+  .gist-files a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .gist-link {
+    text-align: right;
+  }
+  
+  .gist-link a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .gist-link a:hover {
+    text-decoration: underline;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:focus {
+    color: #007bff;
+  }
