@@ -8,8 +8,8 @@ const Search = ({ onSearch }) => {
   const handleInputChange = (event) => {
     const value = event.target.value;
     setSearchTerm(value);
-    onSearch(value); 
- };
+    onSearch(value); // Call the parent component's onSearch function with the new value
+  };
 
   return (
     <Wrapper>
@@ -50,4 +50,4 @@ const Input = styled.input`
   }
 `;
 
-export default Search
+export default Search;
